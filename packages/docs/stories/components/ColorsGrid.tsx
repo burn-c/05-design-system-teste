@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { colors } from "@ignite-ui/tokens"
 import { getContrast } from "polished"
 
