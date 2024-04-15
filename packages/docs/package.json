@@ -29,10 +29,11 @@
     "vite": "^5.1.5"
   },
   "dependencies": {
-    "polished": "^4.3.1",
     "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
-    "@ignite-ui/react": "*"
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.3.1"
   }
 }
