@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @storybook/addon-a11y
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hildo/C:\Users\User\AppData\Roaming\npm:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/hildo/.fig/bin:/Users/hildo/.local/bin:/Users/hildo/Android/Sdk/emulator:/Users/hildo/Android/Sdk/tools:/Users/hildo/Android/Sdk/tools/bin:/Users/hildo/Android/Sdk/platform-tools:/Users/hildo/Android/Sdk/emulator:/Users/hildo/Android/Sdk/tools:/Users/hildo/Android/Sdk/tools/bin:/Users/hildo/Android/Sdk/platform-tools:/Users/hildo/.fig/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ignite-ui%2feslint-config: Not found
+      at params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "@ignite-ui/docs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "storybook dev -p 6006",
+      "build-vite": "tsc && vite build",
+      "build": "storybook build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "@storybook/addon-essentials": "^7.6.17",
+      "@storybook/addon-interactions": "^7.6.17",
+      "@storybook/addon-links": "^7.6.17",
+      "@storybook/addon-onboarding": "^1.0.11",
+      "@storybook/blocks": "^7.6.17",
+      "@storybook/react": "^7.6.17",
+      "@storybook/react-vite": "^7.6.17",
+      "@storybook/testing-library": "^0.2.2",
+      "@vitejs/plugin-react": "^4.2.1",
+      "prop-types": "^15.8.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "storybook": "^7.6.17",
+      "vite": "^5.1.5"
+    },
+    "dependencies": {
+      "@ignite-ui/eslint-config": "*",
+      "@ignite-ui/react": "*",
+      "@ignite-ui/tokens": "*",
+      "@ignite-ui/ts-config": "*",
+      "phosphor-react": "^1.4.1",
+      "polished": "^4.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
