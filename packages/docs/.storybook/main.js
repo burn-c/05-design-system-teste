@@ -25,6 +25,13 @@ const config = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/05-01-design-system/";
+    }
+
+    return config;
+  },
   docs: {
     autodocs: "tag",
   },
