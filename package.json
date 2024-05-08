@@ -92,9 +92,9 @@
     "slash": "^3.0.0",
     "source-map": "^0.8.0-beta.0",
     "string-width": "^5.1.2",
-    "string-width-cjs": "^4.2.3",
+    "string-width-cjs": "^5.1.1",
     "strip-ansi": "^7.1.0",
-    "strip-ansi-cjs": "^6.0.1",
+    "strip-ansi-cjs": "^8.0.0",
     "strip-final-newline": "^2.0.0",
     "sucrase": "^3.35.0",
     "thenify": "^3.3.1",
@@ -109,14 +109,14 @@
     "whatwg-url": "^7.1.0",
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",
-    "wrap-ansi-cjs": "^7.0.0",
+    "wrap-ansi-cjs": "^8.0.0",
     "yaml": "^2.3.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "react": "^18.2.0",
-    "turbo": "^1.13.2"
+    "turbo": "^1.13.3"
   },
   "description": ""
 }
